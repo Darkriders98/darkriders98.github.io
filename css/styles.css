@@ -11,11 +11,29 @@ h1, h2, h3, h4, h5, h6{
 div.presentation{
     position: relative;
     margin-left: 50px;
-    width: 50%;
+    width: 70%;
+    background-color: #777777;
+    color: palegoldenrod;
 }
 
 div.presentation p{
-    font-size: 20px;
+    font-size: 15px;
+}
+
+div.presentation ol{
+    list-style: upper-roman;
+}
+
+div.presentation ul{
+    list-style: square;
+}
+
+div.presentation img{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    height: 100px;
+    width: 200px;
 }
 
 /*Define Header and Footer*/
@@ -58,8 +76,7 @@ footer{
     display: block;
 }
 
-#navbar a
-{
+#navbar a {
     display: block;
     text-decoration: none;
     color: firebrick;
@@ -67,11 +84,11 @@ footer{
 }
 
 #navbar li:hover a{
-    color: white;
+    color: whitesmoke;
 }
 
 #navbar li:hover{
-    background-color: black;
+    background-color: dimgray;
     width: 90%;
 }
 

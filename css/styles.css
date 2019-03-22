@@ -1,12 +1,43 @@
 body{
     margin-left: 200px;
-    background-color: darkgrey;
+    background-color: dimgray;
     color: whitesmoke;
 }
 
-h1{
+h1, h2, h3, h4, h5, h6{
     color: #17252a;
 }
+
+div.presentation{
+    position: relative;
+    margin-left: 50px;
+    width: 50%;
+}
+
+div.presentation p{
+    font-size: 20px;
+}
+
+/*Define Header and Footer*/
+
+header{
+    background-color: #666666;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: whitesmoke;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    color: whitesmoke;
+    background-color: #777777;
+}
+
+/*End of definition*/
 
 /*Define navigation bar*/
 

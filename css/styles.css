@@ -1,0 +1,53 @@
+body{
+    margin-left: 200px;
+    background-color: darkgrey;
+    color: whitesmoke;
+}
+
+h1{
+    color: #17252a;
+}
+
+/*Define navigation bar*/
+
+#navbar{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 100px;
+    height: 100%;
+    margin: 0;
+    list-style-type: none;
+    background-color: darkkhaki;
+}
+
+#navbar li{
+    margin: 5px 0;
+    padding: 5px;
+    display: block;
+}
+
+#navbar a
+{
+    display: block;
+    text-decoration: none;
+    color: firebrick;
+    height: 100%;
+}
+
+#navbar li:hover a{
+    color: white;
+}
+
+#navbar li:hover{
+    background-color: black;
+    width: 90%;
+}
+
+/*End of navigation bar*/
+
+a:link, a:visited{
+    color: dimgray;
+}
+
+

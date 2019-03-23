@@ -28,3 +28,17 @@ function init() {
     document.getElementById("event").addEventListener("mouseover", changeSrc);
 
 }
+
+function addItem() {
+
+    let item = document.getElementById("shopping_input").getElementsByTagName("input");
+    let text = document.createTextNode(item[0].value);
+    let ul = document.getElementById("shopping_list").getElementsByTagName("ul");
+    let li = document.createElement("li");
+
+    li.appendChild(text);
+    ul[0].appendChild(li);
+
+
+}
+

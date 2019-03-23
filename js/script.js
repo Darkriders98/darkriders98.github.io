@@ -17,11 +17,12 @@ function init() {
     }
 
     let changeSrc = function(event) {
-        let filename = event.target.src.replace(/^.*[\\\/]/, '');
-        if (filename === "flower1.png") {
-            event.target.src = "icons/flower2.png";
+        if (event.target.src) {
+            var filename = event.target.src.replace(/^.*[\\\/]/, '');
         }
-        else event.target.src = "icons/flower1.png";
+        if (filename === "flower1.png"){
+            event.target.src = "icons/flower2.png";
+        }else event.target.src = "icons/flower1.png";
     };
 
     document.getElementById("event").addEventListener("mouseover", changeSrc);

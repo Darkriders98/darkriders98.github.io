@@ -112,3 +112,11 @@ a:link, a:visited{
 }
 
 /*End of container definition*/
+
+#event{
+    background-color: white;
+    width: 50%;
+    text-align: center;
+    color: dimgray;
+}
+

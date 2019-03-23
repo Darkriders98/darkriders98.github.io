@@ -109,14 +109,32 @@ a:link, a:visited{
     width: 50%;
     text-align: center;
     color: dimgray;
+    margin: 10px;
 }
 
 /*End of container definition*/
+
+/*Event definition*/
 
 #event{
     background-color: white;
     width: 50%;
     text-align: center;
     color: dimgray;
+    margin: 10px;
 }
+
+/*End of event definition*/
+
+/*Rainbow style*/
+
+#rainbow{
+    background-color: black;
+    width: 50%;
+    font-size: 25px;
+    margin: 10px;
+}
+
+/*End of rainbow style*/
+
 

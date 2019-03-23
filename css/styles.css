@@ -8,6 +8,8 @@ h1, h2, h3, h4, h5, h6{
     color: #17252a;
 }
 
+/*Presentation style*/
+
 div.presentation{
     position: relative;
     margin-left: 50px;
@@ -35,6 +37,8 @@ div.presentation img{
     height: 100px;
     width: 200px;
 }
+
+/*End of presentation style*/
 
 /*Define Header and Footer*/
 
@@ -98,4 +102,13 @@ a:link, a:visited{
     color: dimgray;
 }
 
+/*Container for images*/
 
+#container{
+    background-color: white;
+    width: 50%;
+    text-align: center;
+    color: dimgray;
+}
+
+/*End of container definition*/

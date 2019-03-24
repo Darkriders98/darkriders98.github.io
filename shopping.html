@@ -18,12 +18,24 @@
 </h1>
 
 <div>
-    <form action="shopping.html">
-        <input type="text" placeholder="Item you need to buy" id="shopping_input">
-        <button onclick="addItem()" type="submit">Add</button>
-        <ul id="shopping_list">Shopping list:
-        </ul>
+    <form onsubmit="return false;">
+        <label>
+            <input type="checkbox" id="important">Is important
+        </label></br>
+        <label>
+            <input type="checkbox" id="grocerie">Can be bought in groceries
+        </label></br>
+        <label>
+            <input type="text" placeholder="Item you need to buy" id="shopping_input" value="">
+        </label>
+        <label>
+            <button onclick="addItem()">Add</button>
+        </label>
     </form>
+
+    <ul id="shopping_list">Shopping list:
+    </ul>
+
 </div>
 
 

@@ -31,14 +31,38 @@ function init() {
 
 function addItem() {
 
-    let item = document.getElementById("shopping_input").getElementsByTagName("input");
-    let text = document.createTextNode(item[0].value);
-    let ul = document.getElementById("shopping_list").getElementsByTagName("ul");
-    let li = document.createElement("li");
+    let input = document.getElementById("shopping_input");
+    let text = document.createTextNode(input.value);
 
-    li.appendChild(text);
-    ul[0].appendChild(li);
+    if (text.length>0 && text != ''){
 
+        let li = document.createElement("li");
+        li.appendChild(text);
+
+        let imp = document.getElementById("important");
+        let gro = document.getElementById("grocerie");
+
+        if(imp.checked){
+            li.style.color = "red";
+            imp.checked = false;
+        }
+
+        if(gro.checked){
+            li.style["text-decoration"] = "underline";
+            gro.checked = false;
+        }
+
+        let list = document.getElementById("shopping_list");
+        list.appendChild(li);
+
+        input.placeholder = "Item you need to buy";
+        input.value = '';
+
+    }
+
+}
+
+function removeItem() {
 
 }
 

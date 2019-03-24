@@ -64,5 +64,19 @@ function addItem() {
 
 function removeItem() {
 
+    let input = document.getElementById("remove_input");
+    let text = document.createTextNode(input.value);
+    let list = document.getElementById("shopping_list");
+
+    window.alert(list.length);
+
+    /*
+    if(input.value >= 0 && input.value <= list.length){
+
+
+
+    }
+    else window.alert("invalid input");*/
+
 }
 

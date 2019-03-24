@@ -25,12 +25,22 @@
         <label>
             <input type="checkbox" id="grocerie">Can be bought in groceries
         </label></br>
+
         <label>
             <input type="text" placeholder="Item you need to buy" id="shopping_input" value="">
         </label>
         <label>
-            <button onclick="addItem()">Add</button>
+            <button onclick="addItem()" style="border-radius: 20%; background-color: darkgoldenrod">Add</button>
+        </label></br>
+
+        <label>
+            Index of the item you need to remove:
+            <input type="number" id="remove_input" value="">
         </label>
+        <label>
+            <button onclick="removeItem()" style="border-radius: 20%; background-color: darkgoldenrod">Remove</button>
+        </label>
+
     </form>
 
     <ul id="shopping_list">Shopping list:

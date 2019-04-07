@@ -17,11 +17,11 @@
     <li><a href="html/index.html">Home</a></li>
     <li><a href="html/tasks.html">Tasks</a></li>
     <li><a href="html/shopping.html">Shopping</a></li>
-    <li><a href="friendbook.php">Friend's book</a></li>
+    <li><a href="index.php">Friend's book</a></li>
     <li><a href="https://www.blizzard.com/en-us/">Blizzard website</a></li>
 </ul>
 
-<form action="friendbook.php" method="post">
+<form action="index.php" method="post">
     Name: <input type="text" name="name">
     <input type="submit" style="border-radius: 20%; background-color: darkgoldenrod">
 </form>
@@ -69,7 +69,7 @@ echo "</ul>";
 fclose($file);
 ?>
 
-<form action="friendbook.php" method="post">
+<form action="index.php" method="post">
     <input type="text" name="nameFilter" value="<?=$nameFilter?>" placeholder="Name filter">
     <input type="submit" style="border-radius: 20%; background-color: darkgoldenrod">
 </form>

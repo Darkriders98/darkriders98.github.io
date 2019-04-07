@@ -43,7 +43,7 @@ div.presentation img{
 /*Define Header and Footer*/
 
 header{
-    background-color: #666666;
+    background-color: darkgoldenrod;
     padding: 30px;
     text-align: center;
     font-size: 35px;
@@ -136,11 +136,3 @@ a:link, a:visited{
 }
 
 /*End of rainbow style*/
-
-/*Shopping style
-
-#shopping{
-
-}
-
-End of shopping style*/
